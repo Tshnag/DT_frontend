@@ -1,0 +1,355 @@
+* {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+/* Utilities */
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.list-style li {
+  list-style: none;
+}
+.border-none {
+  border: none;
+}
+.border-rad {
+  border-radius: 10px;
+}
+/*  */
+
+/* Header */
+.nav-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+.nav-items li {
+  list-style: none;
+  margin: 0 10px;
+}
+.nav-items li > a > img {
+  height: 30px;
+  width: 30px;
+  border-radius: 250px;
+  width: 30px;
+  height: 30px;
+}
+.dt-logo {
+  height: 50px;
+  margin: 2px 25px;
+}
+
+/* Section home */
+/* heading */
+.home {
+  padding: 0 100px;
+}
+.heading {
+  color: #0029ff;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 0;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 20px;
+  align-items: center;
+}
+
+/* description */
+.title-description {
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+.title-description h1 {
+  margin-bottom: 12px;
+  background-color: #e9ecef;
+}
+.title-description p {
+  background-color: #e9ecef;
+}
+
+/* home- submit btn */
+.submit-btn {
+  background-color: #0029ff;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 12px;
+  border: none;
+  height: 36px;
+  width: 121px;
+  cursor: pointer;
+}
+
+/* Cards container section */
+/* Team Management */
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 4em;
+  justify-content: space-between;
+}
+.card-tech-management {
+  background-color: #fdfdfd;
+  width: 40%;
+  height: 580px;
+  margin: 0 50px;
+  margin-bottom: 50px;
+  padding: 0 0px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-radius: 15px 15px 0 0;
+}
+.title h3 {
+  background-color: black;
+  color: white;
+  margin: 15px auto;
+  font-size: 16px;
+}
+.title a {
+  background-color: black;
+}
+.video-container p {
+  margin: 25px 20px;
+  font-size: 16px;
+}
+.video-tag {
+  text-align: center;
+  margin-top: 3em;
+}
+.info-icon {
+  height: 25px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+/* ThreadBuild Card */
+.card-description {
+  margin: 1px 1px;
+  padding: 25px 20px;
+  font-size: 16px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* threadbuild-btn */
+.thread-dropdown-btn {
+  width: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #feffc033;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.thread-dropdown-btn img {
+  position: relative;
+  float: left;
+  width: 5px;
+  left: 30px;
+}
+.thread-info {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+.sub-thread {
+  background-color: #0000000d;
+  height: 95px;
+  width: 199px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.sub-thread label {
+  padding: 3px 4px 5px;
+  background-color: #0000000d;
+}
+.thread-container {
+  padding: 30px 20px;
+}
+/* select category */
+.select-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 25px 0px 20px;
+}
+.select-box ul {
+  display: flex;
+  flex-direction: row;
+}
+.select-box ul > li {
+  list-style: none;
+  margin: 0 5px;
+}
+.select-box select {
+  margin: 0 10px;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+#thread-info {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 10px 0 0;
+  height: 100%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 10px;
+  padding: 0 5px;
+}
+.sub-interpretation {
+  background-color: #0000000d;
+  display: flex;
+  flex-direction: column;
+  height: 95px;
+  width: 199px;
+  border-radius: 10px 10px 0 0;
+  font-size: 12px;
+}
+.sub-interpretation label {
+  padding: 3px 4px 5px;
+  background-color: #0000000d;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 10px; */
+}
+
+/* summary thread info */
+.summary-thread {
+  margin-top: 15px;
+  position: relative;
+  width: 100%;
+}
+.summary-title-div {
+  text-align: start;
+  position: absolute;
+  height: 65px;
+  z-index: 0;
+  background-color: #0000000d;
+  border-radius: 5px;
+  width: 100%;
+}
+.summary-title-div span {
+  position: absolute;
+  margin: 5px;
+  background: none;
+}
+
+.summary-thread input {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 10px 0 0;
+  height: 100%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 10px;
+  padding: 0;
+}
+
+/* Pointer-Card */
+#card-position {
+  display: flex;
+  flex-direction: column;
+}
+.pointer-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* justify-content: space-around; */
+  padding: 0 20px;
+  border-radius: 0 0 15px 15px;
+}
+.title-label {
+  height: 33px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+#title-input {
+  height: 43px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.content-label {
+  height: 33px;
+  margin-top: 30px;
+}
+#content-input {
+  height: 142px;
+  margin-top: 5px;
+  border: none;
+  box-shadow: 0 2px 2px 0 #00000026;
+}
+.content-edit-wrap {
+  height: 82px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 9px;
+}
+.edit-list {
+  margin: 15px 0;
+  justify-content: space-around;
+}
+.edit-list li {
+  margin: 0 15px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.edit-list li a {
+  text-decoration: none;
+  color: #616161;
+}
+.down-arrow {
+  height: 35px;
+  width: 45px;
+}
+
+/* Intro container */
+.intro-container {
+  margin: 20px 20px;
+}
+..intro-container p {
+  padding: 1px 5px;
+}
+.intro-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  float: right;
+  margin: 20px 10px;
+}
+
+/* journey board */
+.journey-board-box {
+  position: absolute;
+  width: 30%;
+  top: 100px;
+  border-radius: 10px;
+}
+.board-title {
+  border-radius: 0 10px 0px 0;
+}
+.board-task-box {
+  height: 500px;
+  width: 100%;
+  font-size: 12px;
+}
+.board-list {
+  padding: 20px;
+}
